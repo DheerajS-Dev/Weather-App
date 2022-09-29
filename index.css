@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(102,149,190);
+}
+#navbar{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 103, 153);
+}
+input{
+    border: 0px solid ;
+    width: 30%;
+    height: 50%;
+    margin-right: -30px;
+    border-radius: 30px;
+    padding-left: 20px;
+    background-color: rgb(105, 132, 165);
+}
+input::placeholder{
+    color: rgb(199,223,247); ;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border: 0px solid ;
+    height: 50%;
+    margin-left: -30px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(105, 132, 165);    
+}
+#name{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(229,232,235);
+}
+#results{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;    
+}
+#details{
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: rgb(229,232,235);
+    background-image: url(https://media.istockphoto.com/photos/beautiful-sky-with-white-clouds-picture-id182412483?b=1&k=20&m=182412483&s=170667a&w=0&h=IirdBpxBNaXe0bwcNz7ruNbk1FL18IiTxZ6PCK44TOw=);
+    background-size: cover;
+}
+h3{
+    font-size: 15px;
+}
+h3+p{
+    font-size:12px;
+    font-weight: 500;
+    margin: 8px 0px;
+}
+#flex1,#temprature,#flex2{
+    display: flex;
+}
+#weather,img{
+    width: 90px;
+    height: 90px;
+    margin: -10px;
+    margin-right: 1px;
+}
+#temp{
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+#temp>span{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+#main{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+#minMax,#riseSet{
+    font-size:15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+#flex2>div{
+    padding: 5px 13px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+#map{
+    width: 300px;
+    height: 283px;
+    margin-left: 40px;
+}
+#map div{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+#forecast{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(234, 238, 241);
+    text-align: center;
+}
+h4{
+    font-size: 18px;
+    font-weight: 500;    
+}
+#forecasts{
+    width: auto;
+    margin: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+#forecasts div{
+    border: 1px solid rgb(51, 51, 51);
+    text-align: center;
+    padding: 12px;
+    color: rgb(234, 238, 241);
+    background-color: rgb(40, 40, 40);
+}
