@@ -10,7 +10,7 @@ A Web Aplication, to check the real time weather data as well as forecast weathe
 
 - Also user can check the weather forecast for 3 days.
 
-- Live link :- https://weather-app-by-dheeraj.netlify.app/
+- Live link :- [Weather App](https://weather-app-by-dheeraj.netlify.app/)
 
 # Features :
 
